@@ -37,7 +37,8 @@ body {
 
 .container-input {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+	
 }
 
 .container-input .input {
@@ -135,16 +136,33 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .container-input {
         padding: 5rem 0 0 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-}
+
+    .cabecalho {
+    	align-items: center;
+    }
+
+    .buttons  {
+     	margin: 2rem 0 0 6rem;
+    }
+
+    h1 {
+    	margin-left: 3rem;
+    }
+
+    p {
+    	padding: 10px;    
+    }
+ }
 
 @media screen and (min-width: 992px) {
     .container-input {
         padding: 2rem 0 0 2rem;
     }
 }
-
-
