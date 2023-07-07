@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+	</head>
+		<body>
+			<main class="main container">
+				<header class="cabecalho">
+					<img class="logoalura" src="alura.png">
+					<h1>Conversor de Textos</h1>
+				</header>
+				<div class="container-input">
+						<div class="input">
+							<textarea id="input-texto" placeholder="Digite seu texto aqui!"></textarea>
+							<p>ATENÇÃO! Digite Somente Letras Maiúsculas</p>
+						</div>
+					<div id="output">
+							<img class="menino" src="menino.png">
+							<h2>Resultado Aqui!</h2>
+							<span>Converta Seu Texto Aqui</span>
+					</div>			
+				</div>
+				</div>
+				<div class="buttons">
+					<div class="container-btn">
+						<button onclick="criptografar ()" class="btn-criptografar">Criptografar</button>
+						<button onclick="descriptografar ()" class="btn-criptografar">Descriptografar</button>
+					</div>					
+				</div>
+			</main>
+			<footer> 
+				<p class="rodape">&copy; By Dielton Silva - 2023</p>
+			</footer>
+			<script src="scripts.js"></script>
+		</body>
+</html>
+
