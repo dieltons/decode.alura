@@ -74,10 +74,10 @@ body {
 	color: darkgreen;
 }
 
-#output span {
+/*#output span {
 	font-size: 16px;
 	text-align: center;
-}
+}*/
 
 #output img {
 	max-width: 380px;
